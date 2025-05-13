@@ -1,6 +1,6 @@
-@import url(./assets/css/_base.scss);
-@import url(./assets/css/_mixins.scss);
-@import url(./assets/css/_variables.scss);
+@use './assets/css/_base.scss';
+@use './assets/css/_mixins.scss';
+@use './assets/css/_variables.scss';
 #root {
   height: 100%;
   display: flex;
