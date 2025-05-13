@@ -1,41 +1,15 @@
+@import url(./assets/css/_base.scss);
+@import url(./assets/css/_mixins.scss);
+@import url(./assets/css/_variables.scss);
 #root {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-
 /* Layout wrapper */
 .app-layout {
   flex: 1;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-/* Header */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: white;
-  //padding: 1rem var(--padding-inline);
-  border-bottom: 1px solid #ddd;
-  padding: 0;
-}
-
-/* Main */
-main {
-  flex: 1;
-  padding: 2rem var(--padding-inline);
-  width: 100%;
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-}
-
-/* Footer */
-footer {
-  background-color: #eee;
-  padding: 1rem var(--padding-inline);
-  text-align: center;
-  border-top: 1px solid #ccc;
 }
